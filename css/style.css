@@ -1,19 +1,24 @@
+body {
+	height: 2000px;
+}
 
 
 header {
 background-color: aqua;
 display: flex;
+position: fixed;
+top: 0%;
+left: 0%;
+width: 100%;
+z-index: 26;
+
 
 }
 
-
-
-
-
-
-
-
 .geolab {
 	width: 50px;
+}
 
+li {
+	font-size: 17px;
 }
